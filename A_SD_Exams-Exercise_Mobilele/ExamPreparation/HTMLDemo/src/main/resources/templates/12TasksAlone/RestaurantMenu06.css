@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    color: #687487;
+    text-align: center;
+}
+
+h2{
+    font-style: italic;
+    color: black;
+}
+
+.p {
+    font-family: "Montserrat", sans-serif;
+}

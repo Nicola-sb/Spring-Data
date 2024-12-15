@@ -1,0 +1,72 @@
+/*main,footer{*/
+/*    background-color: #5CC0DE;*/
+/*}*/
+
+/*ul{*/
+/*    margin-bottom: 2px;*/
+/*    padding-bottom: 8px;*/
+/*}*/
+/*//Wtora zadacha*/
+
+/*main{*/
+/*    background-color: #5CC0DE;*/
+/*}*/
+
+
+/*main{*/
+/*    background: #DDDDDD;*/
+/*    border: 1px solid black;*/
+/*    padding: 13px;*/
+/*    max-width: 400px;*/
+/*}*/
+
+/*h1{*/
+/*    text-align: center;*/
+/*}*/
+/*//3ta zadacha*/
+
+/*main{*/
+/*    background-color: #A6E1EC;*/
+/*    border: 1px solid black;*/
+/*    padding: 10px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*section article{*/
+/*    border: 1px solid black;*/
+/*    padding: 15px;*/
+/*    vertical-align:bottom;*/
+/*}*/
+
+/*section article img,article p {*/
+/*    display:inline-block;*/
+/*    vertical-align:middle;*/
+/*}*/
+
+/*section article p {*/
+/*    color: #3C4FB4;*/
+/*    font-weight: bold;*/
+/*}*/
+/*//4ta zadacha*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+main,footer{
+    background-color: #5CC0DE;
+}
+
+
+ul{
+    margin-bottom: 2px;
+    padding-bottom: 8px;
+}
+*{
+    color: #687487;
+    text-align: center;
+}
+.sub-title{
+    font-style: italic;
+    color: black;
+}
+.p{
+    font-family: "Montserrat", sans-serif;
+}

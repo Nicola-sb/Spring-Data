@@ -1,0 +1,28 @@
+body{
+    background-color: lightgray;
+    font-family: Helvetica,sans-serif;
+}
+
+button{
+    font-family: Helvetica,sans-serif;
+    background-color: transparent;
+    border-radius: 14px;
+    border: 2px solid #333333;
+    padding: 8px 14px;
+}
+
+.Filled button,.Icon button{
+    background-color: #333333;
+    color:white;
+}
+
+.Icon button img{
+    width: 12px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+button:hover{
+    background-color: #016500;
+    cursor: pointer;
+}

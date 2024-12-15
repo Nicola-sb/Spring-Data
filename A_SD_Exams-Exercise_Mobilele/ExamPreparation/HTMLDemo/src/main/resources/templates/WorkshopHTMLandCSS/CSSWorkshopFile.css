@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nerko+One&display=swap');
+body, ul{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body *{
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    box-shadow: 0px 3px 8px -4px #ccc;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.logo-container img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+.login-nav-item *{
+    display: inline-block;
+    vertical-align: middle;
+}
+.login-btn {
+    margin: 10px;
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    /*color: #FF9100;*/
+}
+
+.nav-link:hover{
+    color:#FF9100;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #FF9100;
+    color: white;
+    border-radius: 14px;
+    padding: 12px 16px;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 8px -4px #ccc;
+}
+
+.intro{
+    background-color: #FF9100;
+    color: white;
+    text-align: center;
+    padding: 60px 120px 90px 120px;
+}
+
+.intro h1{
+    font-size: 45px;
+}
+.filters{
+    background: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.filters label * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.filters-title{
+    font-size: 22px;
+}
+
+.filters label input {
+    border: 1px solid #FF9100;
+    border-radius: 8px;
+    padding: 12px;
+    color: transparent;
+    margin-left: 10px;
+}
+.filters label{
+    position: relative;
+}
+.question-mark-icon{
+    position: absolute;
+    top: 12px;
+    right: -25px;
+}
+
+
+.filters label::after{
+    content: "";
+    display: block;
+    clear: both;
+    background-image: url("arrow_down.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 7px;
+    top: 11px;
+}
+
+
+.trainings {
+    display: flex;
+    gap: 30px; /* Разстояние между картите */
+    justify-content: center; /* Центрира картите хоризонтално */
+    margin: 50px auto;
+    max-width: 1200px; /* Максимална ширина на контейнера */
+}
+
+.training-card {
+    flex: 1; /* Картите да имат еднаква ширина */
+    border: 1px solid #ccc; /* Граница на картата */
+    padding: 20px;
+    border-radius: 10px; /* Закръглени краища */
+    box-shadow: 0px 3px 8px -4px #ccc; /* Лека сянка */
+    background-color: #fff;
+    max-width: 380px; /* Ограничаване на максималната ширина на картите */
+}
+
+.training-blue {
+    background-color: #E0F7FA; /* Светло син фон */
+}
+
+.training-green {
+    background-color: #E8F5E9; /* Светло зелен фон */
+}
+
+.training-header {
+    margin-bottom: 15px;
+}
+
+.training-level {
+    background-color: #FF9100;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.training-details {
+    display: flex;
+    flex-direction: column; /* Вертикално подреждане на детайлите вътре в картите */
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.training-details span {
+    display: flex;
+    align-items: center;
+}
+
+.training-details img {
+    margin-right: 5px;
+}
+
+.training-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.training-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #FF9100;
+    color: white;
+    border-radius: 14px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 8px -4px #ccc;
+}
+
+.btn:hover {
+    background-color: #e07c00; /* Леко по-тъмно при ховър */
+}
+
+.page-header{
+    box-shadow: 0px 3px 8px -4px #ccc;
+}
+
+.program.software{
+    border: 3px solid #44A9F8;
+    background: #E3F3FD;
+}
+.program.hardware{
+    border: 3px solid #00A9F8;
+    background: #DFF4F1;
+}
+
+.program-content{
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+.program-header{
+    display: flex; !important;
+    align-items: center;
+    justify-content: center;
+}
+.program-header h3{
+    padding: 20px 30px;
+    font-size: 21px;
+}
+
+.program.software{
+    border: 3px solid #44A9F8;
+}
+.program-header h4{
+    color: #44A9F8;
+    font-size: 30px ;
+}
+
+.programs header{
+    display: block;
+    text-align: center;
+}
+.programs header h2{
+    color: #41BEAD;
+    font-size: 30px;
+}
+.program.software .program-header h4{
+    color: #44A9F8;
+}
+.program.hardware .program-header h4{
+    color: #00A9F8;
+    margin-left: 10px;
+}
+
+/*footerCSS*/
+
+.page-footer *{
+    color: white;
+}
+.page-footer{
+    background-color: #565656;
+    color: white;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 60px;
+    /*Това е за да не ми стои залепено на екрана в дясно*/
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 260px;
+    border-top: 8px solid #919191;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    /*Това правяи разстояние между SoftUniKids,Всички инициативи; иначе стоят залепени*/
+}
+.page-footer ul{
+    list-style-type: none;
+
+}
+
+.page-footer a{
+    /*//с това казвам, че всеки един хиперлик #a href, няма да бъде подчертан*/
+    text-decoration: none;
+}
+.footer-person-container img{
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+
+}
+.page-footer h5{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.footer-menu li{
+    margin: 15px 0px;
+}
+
+.social-media ul {
+    display: flex;
+    /*така двете иконки ми застават една до друга. А не както преди една над друга*/
+}
+.social-media ul li{
+    margin: 0 10px;
+}
+
+.initiatives li{
+    margin: 15px 0px;
+}

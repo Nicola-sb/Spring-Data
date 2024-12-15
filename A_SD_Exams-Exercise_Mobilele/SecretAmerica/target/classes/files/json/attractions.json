@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Machu Picchu",
+    "description": "An ancient Incan city located in the Andes mountains",
+    "type": "historical site",
+    "elevation": 2430,
+    "country": 134
+  },
+  {
+    "name": "Machu Picchu",
+    "description": "An ancient Incan city located in the Andes mountains",
+    "type": "historical site",
+    "elevation": 2430,
+    "country": 134
+  },
+  {
+    "name": "Christ the Redeemer",
+    "description": "A massive statue of Jesus Christ overlooking Rio de Janeiro",
+    "type": "monument",
+    "elevation": 710,
+    "country": 24
+  }
+]
